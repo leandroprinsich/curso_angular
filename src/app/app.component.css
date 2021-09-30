@@ -1,0 +1,8 @@
+.row {
+    display: inline-block;
+}
+.content-center{
+    /* margin:auto; */
+    text-align: center;
+    /* border: 3px solid blue; */
+}

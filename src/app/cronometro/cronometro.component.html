@@ -1,0 +1,15 @@
+<div class="recuadro center-x-y">
+    <p> {{this.mensaje}}</p>
+    <p id="time" class="a">
+        <input type="number"
+          (input)="this.setInitialTime($event)"
+          name="itime"
+          id="itime"
+          value="{{this.startTime}}"
+        >
+    </p>
+
+    <button id="start" class="a" (click)="this.start($event)">
+        START
+    </button>
+</div>

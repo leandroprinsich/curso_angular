@@ -1,0 +1,41 @@
+.recuadro{
+    border: 3px solid black;
+    width: 80px;
+    /* min-height: 100px; */
+    border: 3px solid green;
+
+}
+#itime{
+    max-width: 30px;
+    text-align: center;
+}
+.center-x-y {
+    padding: 20px;
+    text-align: center;
+    /* align-items: center;
+    align-content: center;
+    align-self: center; */
+    width: 55px;
+    margin: auto;
+  }
+.center {
+    margin: auto;
+}
+#time{
+    margin-bottom: 20px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  input:read-only {
+    background-color: rgb(230, 13, 13);
+  }
+  input:read-write {
+    background: rgb(144, 214, 162);
+  }

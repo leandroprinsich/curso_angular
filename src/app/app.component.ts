@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejercicioCronometro';
+  mensajeFinalizacion: string;
+  constructor(){
+    this.mensajeFinalizacion = '';
+  }
+  OnFinalizoEvent(){
+    this.mensajeFinalizacion = "Press Start again!"
+  }
 }

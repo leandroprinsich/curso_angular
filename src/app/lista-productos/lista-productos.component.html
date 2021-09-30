@@ -1,0 +1,23 @@
+
+<div class="lista">
+  <div class="categoria">
+    {{this.category}}
+  </div>
+  <div class="productos">
+
+    <div *ngFor="let p of this.listaProductos; let arrayIndex = index" class="tarjeta">
+      <img src="{{p.imagen}}" />
+      <div class="footerProducto">
+        <div class="datosProducto">
+          <p>{{p.nombre}}</p>
+          <p>${{p.precio}}</p>
+        </div>
+        <div class="buttons">
+          <button (click)="this.onClickAddProducto(p)" class="addProducto">+</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>

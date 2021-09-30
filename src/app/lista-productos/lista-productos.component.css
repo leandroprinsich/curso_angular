@@ -1,0 +1,62 @@
+
+.lista{
+  margin-bottom: 10px;
+}
+
+.productos {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoria {
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(187, 187, 187);
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.tarjeta{
+  width: 15%;
+  margin:5px;
+  height: 200px;
+  border: 2px solid gray;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+  text-align: center;
+}
+.producto p{
+  margin: 2px auto;
+  text-align: center;
+}
+.tarjeta img{
+  width: 100%;
+  height: 60%;
+}
+
+.datosProducto{
+  margin:auto;
+  width: 50%;
+}
+
+div.buttons{
+  margin-top: 10%;
+}
+button {
+  cursor:pointer;
+}
+
+
+.footerProducto{
+  display: flex;
+  flex-direction: row;
+  padding-right: 5px ;
+}

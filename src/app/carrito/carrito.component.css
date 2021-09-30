@@ -1,0 +1,23 @@
+.tituloCarrito {
+  width: 100%;
+  padding: 5px;
+  background-color: rgb(187, 187, 187);
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+li{
+  margin: 5px auto 5px auto;
+  /* margin-top */
+}
+
+.agregados {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button {
+  cursor:pointer;
+}

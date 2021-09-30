@@ -1,0 +1,27 @@
+
+<div class="formulario">
+  <div class="entrada">
+    <label>Nombre</label>
+    <input type="text" [(ngModel)]="this.nombre">
+    <small *ngIf="this.invalidNombre == true">Debe completar este campo</small>
+  </div>
+  <div class="entrada">
+    <label>Cantidad {{this.cantidad}}</label>
+    <input type="range" [(ngModel)]="this.cantidad">
+    <small *ngIf="this.invalidCantidad == true">Debe completar este campo</small>
+  </div>
+  <div class="entrada">
+    <label>Departamento</label>
+    <select [(ngModel)]="this.departamento">
+      <option value="CARNICERIA">  CARNICERIA</option>
+      <option value="VERDULERIA">  VERDULERIA</option>
+      <option value="PANADERIA">  PANADERIA</option>
+      <option value="CHORICERIA">  CHORICERIA</option>
+    </select>
+    <small *ngIf="this.invalidDepartamento == true">Debe completar este campo</small>
+  </div>
+  <div class="entrada">
+    <button (click)="this.onSubmitFormulario()">Enviar</button>
+  </div>
+</div>
+

@@ -1,0 +1,12 @@
+<div class="caja" *ngFor="let item of this.listaProductos">
+  <h3 class="title">
+    {{item.nombre}}
+  </h3>
+  <div class="datos">
+    <p class="cantidad">CANTIDAD: {{item.cantidad}}</p>
+    <p class="departamento">{{item.departamento}}</p>
+  </div>
+  <div class="buttons">
+    <button (click)="this.onClickAccion(item)">{{this.nombreBoton}}</button>
+  </div>
+</div>

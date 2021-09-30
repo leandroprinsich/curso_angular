@@ -1,0 +1,30 @@
+.listaCompras{
+  width: 80%;
+  border: 0.5px solid rgb(235, 234, 234);
+  margin:auto;
+  padding: 1%;
+}
+h1{
+  text-align: center;
+}
+.listas {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  /* border: 1px solid blue; */
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.listas > .izquierda, .listas > .derecha{
+  display: flex;
+  flex-direction: column;
+}
+
+app-lista-productos{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+

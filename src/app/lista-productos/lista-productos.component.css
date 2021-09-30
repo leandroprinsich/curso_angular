@@ -1,0 +1,26 @@
+div.caja{
+  background-color: aliceblue;
+  border: 2px solid lightgray;
+  /* margin: auto; */
+  padding: 10px;
+  width: 100%;
+}
+
+.datos{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+
+div.buttons > button{
+  background-color: rgb(18, 214, 18);
+  color: white;
+  border: 1px solid white;
+  font-size: 12px;
+  padding:5px;
+  width: 100%;
+}
+

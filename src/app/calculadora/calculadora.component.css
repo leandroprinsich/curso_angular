@@ -1,0 +1,50 @@
+.recuadro{
+    border: 3px solid black;
+    width: 190px;
+    height: 260px;
+    background-color: rgb(226, 216, 216);
+    text-align: center;
+}
+
+.hcenter{
+    margin: auto;
+}
+.resultado{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.botones-numeros, .botones-operadores, .botones-funciones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-funcion {
+    width: 25%;
+    height: 30px; 
+}
+.btn-numero {
+    width: 33.33%;
+    height: 30px;
+}
+.btn-numero:last-child {
+    width: 100%;
+    height: 30px;
+}
+.btn-operador {
+    width: 25%;
+    height: 30px;
+}
+.btn-operador:last-child{
+    width: 100%;
+    height: 30px;
+}
+.div-botones {
+    height: 180px;
+    width: 170px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 40%; */
+}
+

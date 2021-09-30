@@ -1,0 +1,30 @@
+.tarjeta{
+  width: 150px;
+  height: 200px;
+  border: 2px solid black;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+  text-align: center;
+}
+img{
+  border: 2px solid black;
+  width: 125px;
+  height: 125px;
+}
+
+.datosProducto{
+  margin:auto;
+  width: 50%;
+}
+
+div.buttons{
+  /* background-color: yellow; */
+  margin-top: 20%;
+}
+
+.footerProducto{
+  display: flex;
+  flex-direction: row;
+  padding-right: 5px ;
+}

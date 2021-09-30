@@ -1,0 +1,9 @@
+<div class="tituloCarrito">
+  CARRITO
+</div>
+<div class="agregados">
+  <h3>{{this.calcularTotal() > 0 ? 'Total $'+this.calcularTotal() : ''}}</h3>
+  <li *ngFor="let item of this.productosAgregados; let arrayIndex = index">
+    {{this.item.nombre}} x{{this.item.agregados}} - ${{this.item.precio}} - <button (click)="this.onDeleteProducto(item)">Eliminar</button>
+  </li>
+</div>

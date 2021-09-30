@@ -1,0 +1,37 @@
+.recuadro {
+  background-color: rgb(27, 94, 170);
+  max-width: 200px;
+  min-height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  font-size: 12px;
+}
+
+.delete{
+  background-color: chocolate;
+  margin-left: 10px;
+}
+
+
+.tareas {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tarea {
+  border: 1px solid black;
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(255, 104, 104);
+}
+
+.completa {
+  background-color: rgb(27, 228, 27);
+}
+

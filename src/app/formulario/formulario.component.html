@@ -1,0 +1,11 @@
+<form class="formulario">
+  <div class="form-group">
+    <label for="titulo">Título</label>
+    <input type="text" name="titulo" id="titulo" [(ngModel)]="this.tarea.titulo">
+  </div>
+  <div class="form-group">
+    <label for="descripcion">Descripción</label>
+    <input type="text" name="descripcion" id="descripcion" [(ngModel)]="this.tarea.descripcion">
+  </div>
+  <button type="submit" (click)="this.enviarFormulario()">Enviar</button>
+</form>

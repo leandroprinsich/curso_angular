@@ -1,0 +1,13 @@
+<div class="tareas">
+  <div *ngFor="let oTarea of this.lista; let arrayIndex = index" [ngClass]="{tarea: true, completa: oTarea.completa}">
+      <h3>{{oTarea.titulo}}</h3>
+      <p>{{oTarea.descripcion}}</p>
+      <div class="row">
+        <button (click)="this.OnClickComplete(oTarea)" class="complete"> {{oTarea.completa? 'Marcar Incompleta':'Marcar Completa' }}
+        </button>
+        <!--<button (click)="this.OnClickDelete(oTarea.id)" class="delete"> Eliminar -->
+          <button (click)="this.OnClickDelete(arrayIndex)" class="delete"> Eliminar
+        </button>
+      </div>
+  </div>
+</div>

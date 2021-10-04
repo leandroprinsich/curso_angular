@@ -1,0 +1,8 @@
+<div class="escritor">
+  <h2>{{escritor?.nombre}} {{escritor?.apellidos}}</h2>
+  <img [src]="escritor.imagen" alt="">
+  <p>{{escritor.pais}}</p>
+
+</div>
+  <!-- Acá abajo irían los libros -->
+  <router-outlet></router-outlet>

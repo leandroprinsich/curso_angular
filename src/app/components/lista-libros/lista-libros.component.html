@@ -1,7 +1,7 @@
 <div class="libros">
   <div class="libro" *ngFor="let l of aLibros">
-    <h2>{{l?.titulo}} </h2>
     <img [src]="l.imagen" alt="">
-    <p>{{l.publicado}}</p>
+    <p>{{l?.titulo}} </p>
+    <!-- <p>{{l.publicado}}</p> -->
   </div>
 </div>

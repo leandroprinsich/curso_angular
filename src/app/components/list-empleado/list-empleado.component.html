@@ -1,0 +1,14 @@
+
+<div class="empleados">
+  <div class="empleado" *ngFor="let e of aEmpleados" >
+    <h2 class="nombre">{{e.nombre}} {{e.apellidos}}</h2>
+    <img [src]="e.imagen" alt="">
+    <div class="datos">
+      <div class="columna">
+        <p class="email">Email: {{e.email}}</p>
+        <p class="departamento">Dpto: {{e.departamento}}</p>
+        <p class="edad">Edad: {{e.edad}}</p>
+      </div>
+    </div>
+  </div>
+</div>

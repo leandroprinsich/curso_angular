@@ -1,0 +1,30 @@
+div.form-group{
+  margin-top: 10px;
+}
+
+form{
+  margin-top: 20px !important;
+  width: 75%;
+  border: 5px lightcoral solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 248, 248);
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+}
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
+input.ng-valid.ng-touched{
+  border: 1px solid green;
+}
+
+small {
+  color: red
+}

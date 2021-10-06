@@ -1,0 +1,24 @@
+.empleados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.empleado {
+  margin-right: 80px;
+  padding-top: 20px;
+  width: 300px;
+  border: 1px solid black;
+}
+.empleado img{
+  width: 100%;
+}
+
+.columna {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
